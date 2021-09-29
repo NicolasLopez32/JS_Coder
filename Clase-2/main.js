@@ -11,6 +11,6 @@ if((nombre !="") && (edad !="")) {
         alert("Lo lamentamos, " + nombre + "\nDebes ser mayor de edad para acceder a éste sitio")
     }
 } else {
-    alert(" El nombre y edad son obligatorios.")
+    alert("El nombre y edad son obligatorios.")
 }
 
