@@ -2,7 +2,6 @@ let ingresarNumero = parseInt(prompt("Ingresa un numero del 1 al 10"));
 
 // Voy a recorrer en el while si la variable es distinta de 0 (0 = exit)
 while(ingresarNumero != "0" ){
-
     switch(ingresarNumero) {
         case 1:
             alert("Ingresaste el número 1");
@@ -34,7 +33,6 @@ while(ingresarNumero != "0" ){
         case 10:
             alert("Ingresaste el número 10");
             break;
-
         default:
             alert("Numero distinto de 1-10");
             break;        
