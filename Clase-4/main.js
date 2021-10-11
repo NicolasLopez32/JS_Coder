@@ -24,7 +24,6 @@ function carrito() {
         }
 
         let cantidad = parseInt(prompt("¿Cuantos queres comprar?", 0));
-
         total = total + precio * cantidad;
 
         if (confirm("El total de su compra es de: "+total +"\n¿Desea Continuar?")) {
