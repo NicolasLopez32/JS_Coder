@@ -27,6 +27,10 @@ if (confirm("Queres ver la informacion ingresada?")) {
         alert("Usuario: "+infoUsuario[0]+ "\nEmail: "+infoUsuario[1]+ "\nContraseña: "+infoUsuario[2]);
 }
 
+// ordeno el arreglo de forma que me traiga primero los ultimos valores y luego los primeros (por default)
+infoUsuario.reverse();
+
+console.log(infoUsuario);
 
 
 
