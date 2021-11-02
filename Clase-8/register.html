@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de Sesion</title>
+    <title>Registrar Usuario</title>
 
     <!-- link css -->
     <link rel="stylesheet" href="style.css">
@@ -15,7 +15,8 @@
 </head>
 <body>
 
-  <h1>Iniciar Sesión</h1>
+  <h1>¡Registrate!</h1>
+
   <div class="input-group user">
     <span class="input-group-text">Nombre</span>
     <input id ="name" type="text" aria-label="name" class="form-control">
@@ -26,15 +27,20 @@
     <input id="pwd" type="text" aria-label="pwd" class="form-control">
   </div>
 
-  <input id="btnLogin" type="submit" value="Iniciar Sesión" class="button">
+  <div class="input-group pwd">
+    <span class="input-group-text">Email</span>
+    <input id="mail" type="email" aria-label="mail" class="form-control">
+  </div>
 
-  <p>Crea tu cuenta
-    <a class="link" href="register.html">aquí</a>
+  <input id="btnRegister" type="submit" value="Registrarse" class="button">
+
+  <p>¿Ya tienes una cuenta? 
+    <a class="link" href="index.html">Inicia Sesión</a>
   </p>
   </div>
 
   <!-- script js local -->
-  <script src="main.js"></script>
+  <script src="register.js"></script>
   <!--  fin script js local  -->
 
   <!-- script bootstrap -->
